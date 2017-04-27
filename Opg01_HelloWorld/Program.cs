@@ -22,6 +22,16 @@ namespace Opg01_HelloWorld
             Console.WriteLine("Oversat til store bogstaver: " + NavnStoreBogstaver);
 
             Console.ReadKey();
+
+            Console.WriteLine("Så tæller vi lige til 10");
+            // for (int i = 0; i < 10; i++);
+            //{
+            //    Console.WriteLine("Optælling: " +  i);
+
+//            }
+
+            Console.ReadKey();
+
         }
     }
 }
