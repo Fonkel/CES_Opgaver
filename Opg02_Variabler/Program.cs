@@ -8,6 +8,23 @@ namespace Opg02_Variabler
 {
     class Program
     {
+        // delopgave 3
+        public enum filtyper
+        {
+            csv,
+            pdf,
+            txt,
+
+        }
+
+        //Delopgave 5
+        struct Person
+        {
+            public int id;
+            public string navn;
+        }
+
+
         static void Main(string[] args)
         {
             // Delopgave 1
@@ -48,6 +65,39 @@ namespace Opg02_Variabler
             kommatal *= 2;
 
             Console.WriteLine("heltal plus 20: " + kommatal);
+
+            // Delopgave 3
+            Console.WriteLine(" ");
+            Console.WriteLine("Delopgave 3");
+
+            filtyper ft = filtyper.csv;
+
+            Console.WriteLine("Filtype - tekst: " + ft);
+            Console.WriteLine("Filtype værdi: " + (int)ft);
+
+            // Delopgave 4
+            Console.WriteLine(" ");
+            Console.WriteLine("Delopgave 4");
+
+            DateTime date = DateTime.Now;
+
+            Console.WriteLine("Dato: " + date);
+            Console.WriteLine("Dato: " + date.ToString("ddMMyyyy"));
+
+
+            // Delopgave 5
+            Console.WriteLine(" ");
+            Console.WriteLine("Delopgave 4");
+
+            Person pers;
+
+            pers.id = 1;
+            pers.navn = "Carsten";
+
+            Console.WriteLine("Id: " + pers.id);
+            Console.WriteLine("Navn: " + pers.navn);
+
+
 
             Console.ReadKey();
 
