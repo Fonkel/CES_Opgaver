@@ -8,6 +8,8 @@ namespace COpg03Arrays
 {
     class Program
     {
+
+        // Opgave 3 - Arrays og sortering af disse
         static void Main(string[] args)
         {
             int[] maanedsloen = new int[12];
