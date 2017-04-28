@@ -11,7 +11,6 @@ namespace COpg03Arrays
         static void Main(string[] args)
         {
             int[] maanedsloen = new int[12];
-            double average = 0;
             double sum = 0;
 
             for (int i = 0; i < maanedsloen.Length; i++)
