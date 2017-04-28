@@ -40,11 +40,12 @@ namespace Opg4Strenge
             {
                 Console.WriteLine("Del af navn: " + i + " " + split[i]);
 
+
             }
 
-            foreach (var item in split)
+            foreach (var element in split)
             {
-                Console.WriteLine("Del af navn: " + item);
+                Console.WriteLine("Del af navn: " + element);
 
             }
 
