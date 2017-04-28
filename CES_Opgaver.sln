@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg01_HelloWorld", "Opg01_H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg02_Variabler", "Opg02_Variabler\Opg02_Variabler.csproj", "{956E8B9E-BCD8-4C72-BA40-5B77714A909B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg03Arrays", "COpg03Arrays\Opg03Arrays.csproj", "{63C9F009-504B-446C-9B22-60E214B14CFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{956E8B9E-BCD8-4C72-BA40-5B77714A909B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{956E8B9E-BCD8-4C72-BA40-5B77714A909B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{956E8B9E-BCD8-4C72-BA40-5B77714A909B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C9F009-504B-446C-9B22-60E214B14CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C9F009-504B-446C-9B22-60E214B14CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C9F009-504B-446C-9B22-60E214B14CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C9F009-504B-446C-9B22-60E214B14CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
