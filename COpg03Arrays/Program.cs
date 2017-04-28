@@ -25,6 +25,27 @@ namespace COpg03Arrays
             Console.WriteLine("Sum månedsløn: " + sum);
             Console.WriteLine("Gennemsnitlig månedsløn: " + (sum / maanedsloen.Length));
 
+            Console.WriteLine("");
+            Console.WriteLine("SORT - faldende");
+
+            Array.Reverse(maanedsloen);
+            for (int i = 0; i < maanedsloen.Length; i++)
+            {
+                Console.WriteLine("Månedsløn: " + i + " " + maanedsloen[i]);
+
+            }
+
+
+            Console.WriteLine("");
+            Console.WriteLine("SORT - stigende");
+            Array.Sort(maanedsloen);
+            for (int i = 0; i < maanedsloen.Length; i++)
+            {
+                Console.WriteLine("Månedsløn: " + i + " " + maanedsloen[i]);
+
+            }
+
+
             Console.ReadKey();
 
 
