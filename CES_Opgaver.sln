@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg02_Variabler", "Opg02_Va
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg03Arrays", "COpg03Arrays\Opg03Arrays.csproj", "{63C9F009-504B-446C-9B22-60E214B14CFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg4Strenge", "Opg4Strenge\Opg4Strenge.csproj", "{36E4777F-9C48-4FFB-908E-A3FE1B0D1485}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg04Strenge", "Opg4Strenge\Opg04Strenge.csproj", "{36E4777F-9C48-4FFB-908E-A3FE1B0D1485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg05_Løkker", "Opg05_Løkker\Opg05_Løkker.csproj", "{8A78B5D8-91AA-44A4-B26B-6FF0BDA3C343}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg05Løkker", "Opg05_Løkker\Opg05Løkker.csproj", "{8A78B5D8-91AA-44A4-B26B-6FF0BDA3C343}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
