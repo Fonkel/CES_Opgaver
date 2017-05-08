@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg04Strenge", "Opg4Strenge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg05Løkker", "Opg05_Løkker\Opg05Løkker.csproj", "{8A78B5D8-91AA-44A4-B26B-6FF0BDA3C343}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg6Metoder", "Opg6Metoder\Opg6Metoder.csproj", "{B1B9DD92-238C-45DF-B9A5-BD553C3531BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8A78B5D8-91AA-44A4-B26B-6FF0BDA3C343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A78B5D8-91AA-44A4-B26B-6FF0BDA3C343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A78B5D8-91AA-44A4-B26B-6FF0BDA3C343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B9DD92-238C-45DF-B9A5-BD553C3531BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B9DD92-238C-45DF-B9A5-BD553C3531BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B9DD92-238C-45DF-B9A5-BD553C3531BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B9DD92-238C-45DF-B9A5-BD553C3531BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
