@@ -19,7 +19,7 @@ namespace Opg6aBeregnArray
             int[] test = { 10, 7, 6, 3, 1, 50, 3 };
             var res = BeregnOgSortArray(test);
 
-            Console.WriteLine("SUM:" + res.sum);
+            Console.WriteLine("Sum:" + res.sum);
             Console.WriteLine("Gennemsnit:" + res.gennemsnit);
 
         }
