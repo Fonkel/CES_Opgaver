@@ -34,8 +34,10 @@ namespace Modul07Person
         public string FuldeNavn
         {
             get {
-                fuldenavn = this.Fornavn + " " + this.Efternavn;
-                return fuldenavn;
+                //fuldenavn = this.Fornavn + " " + this.Efternavn;
+                //return fuldenavn;
+
+                return this.Fornavn + " " + this.Efternavn;
             }
             //set { fuldenavn = value; }
         }
