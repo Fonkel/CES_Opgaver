@@ -16,12 +16,10 @@ namespace Opg6bOverload
             Udskriv("Sum:" + res);
 
             res = LægSammen(1, 2, 3);
-
             Udskriv();  // blank linje
             Udskriv("Sum:" + res);
 
             res = LægSammen(1, 2, 3, 4 );
-
             Udskriv();  // blank linje
             Udskriv("Sum:" + res);
         }
