@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg07aNyTerning", "Opg07aNy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul07vare", "Modul07vare\Modul07vare.csproj", "{BAC5D189-450C-454E-868B-C30EEA61202B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul07Person", "Modul07Person\Modul07Person.csproj", "{F32FE3DF-3498-4D6F-B541-2CA43DF9B5EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{BAC5D189-450C-454E-868B-C30EEA61202B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC5D189-450C-454E-868B-C30EEA61202B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC5D189-450C-454E-868B-C30EEA61202B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32FE3DF-3498-4D6F-B541-2CA43DF9B5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32FE3DF-3498-4D6F-B541-2CA43DF9B5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32FE3DF-3498-4D6F-B541-2CA43DF9B5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32FE3DF-3498-4D6F-B541-2CA43DF9B5EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
