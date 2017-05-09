@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9A617991-123F-41A8-87B6-F67B83978AF1}</ProjectGuid>
+    <ProjectGuid>{607B2F30-1149-4C46-AFFD-679F8E529FAA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Modul07PersonNedarv</RootNamespace>
-    <AssemblyName>Modul07PersonNedarv</AssemblyName>
+    <RootNamespace>Modul07Terning</RootNamespace>
+    <AssemblyName>Modul07Terning</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Elev.cs" />
-    <Compile Include="Instruktør.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Ludo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Terning.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
