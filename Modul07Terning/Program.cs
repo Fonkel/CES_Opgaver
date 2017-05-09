@@ -28,12 +28,12 @@ namespace Modul07Terning
 
             Ludo ludo1 = new Ludo();
             ludo1.Skriv();
-            symbol(ludo1.erGlobus(), ludo1.erStjerne());
+            //symbol(ludo1.erGlobus(), ludo1.erStjerne());
 
             ludo1.Ryst();
 
             ludo1.Skriv();
-            symbol(ludo1.erGlobus(), ludo1.erStjerne());
+            //symbol(ludo1.erGlobus(), ludo1.erStjerne());
 
 
 
@@ -46,18 +46,18 @@ namespace Modul07Terning
         }
 
         //Udskriv tekst, hvis ingen værdi overføres er default = Blank!!
-        static void symbol(bool gl, bool st)
-        {
-            if (gl == true)
-            {
-                Udskriv("Det svarer til at slå Globus");
-            }
-            else
-            if (st == true)
-            {
-                Udskriv("Det svarer til at slå Stjerne");
-            }
-        }
+        //static void symbol(bool gl, bool st)
+        //{
+        //    if (gl == true)
+        //    {
+        //        Udskriv("Det svarer til at slå Globus");
+        //    }
+        //    else
+        //    if (st == true)
+        //    {
+        //        Udskriv("Det svarer til at slå Stjerne");
+        //    }
+        //}
 
     }
 }

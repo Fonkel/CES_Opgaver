@@ -36,6 +36,25 @@ namespace Modul07Terning
         }
 
 
+        // udskriv terningens værdi
+        public override void Skriv()
+        {
+            base.Skriv();
+
+            if (this.erGlobus() == true)
+            {
+                Console.WriteLine("Det svarer til at slå Globus");
+            }
+            else
+            if (this.erStjerne() == true)
+            {
+                Console.WriteLine("Det svarer til at slå Stjerne");
+            }
+
+
+        }
+
+
         public Ludo(): base()
         {
         }

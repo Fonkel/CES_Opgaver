@@ -44,7 +44,7 @@ namespace Modul07Terning
         }
 
         // udskriv terningens værdi
-        public void Skriv()
+        public virtual void Skriv()
         {
             Console.WriteLine("[" + this.værdi + "]");
 
