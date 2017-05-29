@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul07Terning", "Modul07Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module09ExceptionHandling", "Module09ExceptionHandling\Module09ExceptionHandling.csproj", "{B2C5FD79-57AB-47BF-A85B-2CE76B516B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul09Logging", "Modul09Logging\Modul09Logging.csproj", "{9B94678D-5DC1-4A30-B705-E1B276AC3844}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{B2C5FD79-57AB-47BF-A85B-2CE76B516B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2C5FD79-57AB-47BF-A85B-2CE76B516B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2C5FD79-57AB-47BF-A85B-2CE76B516B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B94678D-5DC1-4A30-B705-E1B276AC3844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B94678D-5DC1-4A30-B705-E1B276AC3844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B94678D-5DC1-4A30-B705-E1B276AC3844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B94678D-5DC1-4A30-B705-E1B276AC3844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
