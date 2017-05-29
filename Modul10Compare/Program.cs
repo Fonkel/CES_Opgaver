@@ -30,13 +30,13 @@ namespace Modul10Compare
             {
                 Console.WriteLine(item.Navn);
             }
-                   logger.Trace("Her slutter vi");
+            logger.Trace("Her slutter vi");
 
             Console.ReadKey();
 
         }
 
-        class Hund: IComparable
+        class Hund : IComparable
 
         {
             public string Navn { get; set; }
@@ -51,8 +51,19 @@ namespace Modul10Compare
                     return 1;
 
                 return 0;
-
             }
-        }
+                //public int CompareTo(object obj)
+                //{
+                //    Hund h = obj as Hund;
+                //    if (h.Navn < this.Navn)
+                //        return -1;
+                //    if (h.Navn > this.Navn)
+                //        return 1;
+
+                //    return 0;
+
+                //}
+                //}
+            }
     }
 }
