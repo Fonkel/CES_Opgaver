@@ -13,7 +13,7 @@ namespace Modul09Logging
 
         static void Main(string[] args)
         {
-            logger.Trace("Her starter vi");
+            logger.Trace("Her starter vi (test af ÆØÅæøå)");
             logger.Debug("Kald af Test1");
             test1(5, 5);
             logger.Debug("Efter Test1");

@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module09ExceptionHandling",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul09Logging", "Modul09Logging\Modul09Logging.csproj", "{9B94678D-5DC1-4A30-B705-E1B276AC3844}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul10Interface_01", "Modul10Interface_01\Modul10Interface_01.csproj", "{8014A526-8A96-463E-93A7-838469D0289E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul10Compare", "Modul10Compare\Modul10Compare.csproj", "{740737A2-26DF-44BA-A43B-759090ECAA4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{9B94678D-5DC1-4A30-B705-E1B276AC3844}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B94678D-5DC1-4A30-B705-E1B276AC3844}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B94678D-5DC1-4A30-B705-E1B276AC3844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8014A526-8A96-463E-93A7-838469D0289E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8014A526-8A96-463E-93A7-838469D0289E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8014A526-8A96-463E-93A7-838469D0289E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8014A526-8A96-463E-93A7-838469D0289E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740737A2-26DF-44BA-A43B-759090ECAA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740737A2-26DF-44BA-A43B-759090ECAA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740737A2-26DF-44BA-A43B-759090ECAA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740737A2-26DF-44BA-A43B-759090ECAA4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
