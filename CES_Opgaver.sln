@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul07Terning", "Modul07Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul09ExceptionHandling", "ConsoleApp1\Modul09ExceptionHandling.csproj", "{84F02784-40E0-4026-8D8B-C1077EAD175D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modul09ExcepHandling", "modul09ExcepHandling\modul09ExcepHandling.csproj", "{03EE62AD-755D-43EE-9AE5-0219F209A89E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{84F02784-40E0-4026-8D8B-C1077EAD175D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F02784-40E0-4026-8D8B-C1077EAD175D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84F02784-40E0-4026-8D8B-C1077EAD175D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EE62AD-755D-43EE-9AE5-0219F209A89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EE62AD-755D-43EE-9AE5-0219F209A89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EE62AD-755D-43EE-9AE5-0219F209A89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EE62AD-755D-43EE-9AE5-0219F209A89E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
