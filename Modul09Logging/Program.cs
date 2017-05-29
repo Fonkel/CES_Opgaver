@@ -34,16 +34,21 @@ namespace Modul09Logging
 
         static void test2()
         {
+            logger.Trace("Nu er vi nede i test2");
+
             try
             {
-                logger.Trace("Nu er vi nede i test2");
                 Console.WriteLine("test2");
-                throw new ApplicationException("fejl");
+                throw new ApplicationException("Fejl!!!");
             }
             catch (Exception ex)
             {
                 // mangler log
+                logger.Error(ex);
             }
+
+            logger.Trace("Nu er vi på vej ud af test2");
+
         }
     }
 }
