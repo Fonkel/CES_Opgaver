@@ -22,6 +22,9 @@ namespace Modul11Delegate
             resultat = beregner(2, 3, potens);
             Console.WriteLine(resultat);
 
+            resultat = beregner(17, 4, rest);
+            Console.WriteLine(resultat);
+
         }
 
         public static int beregner(int a, int b, BeregnDelegate funktion)
@@ -62,18 +65,34 @@ namespace Modul11Delegate
         {
             double res = 0;
             int p2 = 1;
-            
+            int rest = 0;
+
             Console.WriteLine(a + " ** " + b + " = ");
 
             res = Math.Pow(a, b);
             p2 = Convert.ToInt32(res);
-
+            res = Math.DivRem(a, b, out rest);
             //for (int ix1 = 1; ix1 <= b; ix1++)
 
             //{
             //    p2 = p2 * a;
             //}
 
+
+            return p2;
+        }
+
+        //REST ved division beregning
+        public static int rest(int a, int b)
+        {
+            double res = 0;
+            int p2 = 1;
+            int rest = 0;
+
+            Console.WriteLine(a + " / " + b + " giver rest = ");
+
+            res = Math.DivRem(a, b, out rest);
+            p2 = Convert.ToInt32(res);
 
             return p2;
         }
