@@ -60,15 +60,19 @@ namespace Modul11Delegate
         //POTENS beregning
         public static int potens(int a, int b)
         {
+            double res = 0;
             int p2 = 1;
-
+            
             Console.WriteLine(a + " ** " + b + " = ");
 
-            for (int ix1 = 1; ix1 <= b; ix1++)
+            res = Math.Pow(a, b);
+            p2 = Convert.ToInt32(res);
 
-            {
-                p2 = p2 * a;
-            }
+            //for (int ix1 = 1; ix1 <= b; ix1++)
+
+            //{
+            //    p2 = p2 * a;
+            //}
 
 
             return p2;
