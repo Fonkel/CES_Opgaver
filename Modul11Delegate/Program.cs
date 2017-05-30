@@ -72,6 +72,9 @@ namespace Modul11Delegate
             res = Math.Pow(a, b);
             p2 = Convert.ToInt32(res);
             res = Math.DivRem(a, b, out rest);
+
+            // Alternativ beregning af opløftning til potens:
+
             //for (int ix1 = 1; ix1 <= b; ix1++)
 
             //{
