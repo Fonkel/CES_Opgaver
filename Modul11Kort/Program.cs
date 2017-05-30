@@ -22,6 +22,8 @@ namespace Modul11Kort
             Console.WriteLine("Et kort trækkes fra bunken");
             Console.WriteLine("");
 
+            // Kommer med i Tasklisten - HUSK, her skal jeg lige tilbage til
+            // TODO: mjshdjmemfjdmjdmjf
             var kort = kortbunke.Fjernkort();
             Console.WriteLine("");
             Console.WriteLine("Kortet var: " + kort);
